@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F698901C1796F000A97238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6988F1C1796F000A97238 /* AppDelegate.swift */; };
+		82F698921C1796F000A97238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698911C1796F000A97238 /* ViewController.swift */; };
+		82F698951C1796F000A97238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698931C1796F000A97238 /* Main.storyboard */; };
+		82F698971C1796F000A97238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F698961C1796F000A97238 /* Assets.xcassets */; };
+		82F6989A1C1796F000A97238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698981C1796F000A97238 /* LaunchScreen.storyboard */; };
+		82F698A51C1796F000A97238 /* French_BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698A41C1796F000A97238 /* French_BridgeTests.swift */; };
+		82F698B01C1796F000A97238 /* French_BridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698AF1C1796F000A97238 /* French_BridgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82F698A11C1796F000A97238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F698841C1796F000A97238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F6988B1C1796F000A97238;
+			remoteInfo = French_Bridge;
+		};
+		82F698AC1C1796F000A97238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F698841C1796F000A97238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F6988B1C1796F000A97238;
+			remoteInfo = French_Bridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82F6988C1C1796F000A97238 /* French_Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = French_Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6988F1C1796F000A97238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82F698911C1796F000A97238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82F698941C1796F000A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82F698961C1796F000A97238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F698991C1796F000A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F6989B1C1796F000A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F698A01C1796F000A97238 /* French_BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = French_BridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F698A41C1796F000A97238 /* French_BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = French_BridgeTests.swift; sourceTree = "<group>"; };
+		82F698A61C1796F000A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F698AB1C1796F000A97238 /* French_BridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = French_BridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F698AF1C1796F000A97238 /* French_BridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = French_BridgeUITests.swift; sourceTree = "<group>"; };
+		82F698B11C1796F000A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F698891C1796F000A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6989D1C1796F000A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698A81C1796F000A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F698831C1796F000A97238 = {
+			isa = PBXGroup;
+			children = (
+				82F6988E1C1796F000A97238 /* French_Bridge */,
+				82F698A31C1796F000A97238 /* French_BridgeTests */,
+				82F698AE1C1796F000A97238 /* French_BridgeUITests */,
+				82F6988D1C1796F000A97238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82F6988D1C1796F000A97238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F6988C1C1796F000A97238 /* French_Bridge.app */,
+				82F698A01C1796F000A97238 /* French_BridgeTests.xctest */,
+				82F698AB1C1796F000A97238 /* French_BridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F6988E1C1796F000A97238 /* French_Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				82F6988F1C1796F000A97238 /* AppDelegate.swift */,
+				82F698911C1796F000A97238 /* ViewController.swift */,
+				82F698931C1796F000A97238 /* Main.storyboard */,
+				82F698961C1796F000A97238 /* Assets.xcassets */,
+				82F698981C1796F000A97238 /* LaunchScreen.storyboard */,
+				82F6989B1C1796F000A97238 /* Info.plist */,
+			);
+			path = French_Bridge;
+			sourceTree = "<group>";
+		};
+		82F698A31C1796F000A97238 /* French_BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				82F698A41C1796F000A97238 /* French_BridgeTests.swift */,
+				82F698A61C1796F000A97238 /* Info.plist */,
+			);
+			path = French_BridgeTests;
+			sourceTree = "<group>";
+		};
+		82F698AE1C1796F000A97238 /* French_BridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82F698AF1C1796F000A97238 /* French_BridgeUITests.swift */,
+				82F698B11C1796F000A97238 /* Info.plist */,
+			);
+			path = French_BridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F6988B1C1796F000A97238 /* French_Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F698B41C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_Bridge" */;
+			buildPhases = (
+				82F698881C1796F000A97238 /* Sources */,
+				82F698891C1796F000A97238 /* Frameworks */,
+				82F6988A1C1796F000A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = French_Bridge;
+			productName = French_Bridge;
+			productReference = 82F6988C1C1796F000A97238 /* French_Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82F6989F1C1796F000A97238 /* French_BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F698B71C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeTests" */;
+			buildPhases = (
+				82F6989C1C1796F000A97238 /* Sources */,
+				82F6989D1C1796F000A97238 /* Frameworks */,
+				82F6989E1C1796F000A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F698A21C1796F000A97238 /* PBXTargetDependency */,
+			);
+			name = French_BridgeTests;
+			productName = French_BridgeTests;
+			productReference = 82F698A01C1796F000A97238 /* French_BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82F698AA1C1796F000A97238 /* French_BridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F698BA1C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeUITests" */;
+			buildPhases = (
+				82F698A71C1796F000A97238 /* Sources */,
+				82F698A81C1796F000A97238 /* Frameworks */,
+				82F698A91C1796F000A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F698AD1C1796F000A97238 /* PBXTargetDependency */,
+			);
+			name = French_BridgeUITests;
+			productName = French_BridgeUITests;
+			productReference = 82F698AB1C1796F000A97238 /* French_BridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F698841C1796F000A97238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Baca_Family;
+				TargetAttributes = {
+					82F6988B1C1796F000A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					82F6989F1C1796F000A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 82F6988B1C1796F000A97238;
+					};
+					82F698AA1C1796F000A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 82F6988B1C1796F000A97238;
+					};
+				};
+			};
+			buildConfigurationList = 82F698871C1796F000A97238 /* Build configuration list for PBXProject "French_Bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F698831C1796F000A97238;
+			productRefGroup = 82F6988D1C1796F000A97238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F6988B1C1796F000A97238 /* French_Bridge */,
+				82F6989F1C1796F000A97238 /* French_BridgeTests */,
+				82F698AA1C1796F000A97238 /* French_BridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F6988A1C1796F000A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6989A1C1796F000A97238 /* LaunchScreen.storyboard in Resources */,
+				82F698971C1796F000A97238 /* Assets.xcassets in Resources */,
+				82F698951C1796F000A97238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6989E1C1796F000A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698A91C1796F000A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F698881C1796F000A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698921C1796F000A97238 /* ViewController.swift in Sources */,
+				82F698901C1796F000A97238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6989C1C1796F000A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698A51C1796F000A97238 /* French_BridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698A71C1796F000A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698B01C1796F000A97238 /* French_BridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F698A21C1796F000A97238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F6988B1C1796F000A97238 /* French_Bridge */;
+			targetProxy = 82F698A11C1796F000A97238 /* PBXContainerItemProxy */;
+		};
+		82F698AD1C1796F000A97238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F6988B1C1796F000A97238 /* French_Bridge */;
+			targetProxy = 82F698AC1C1796F000A97238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82F698931C1796F000A97238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F698941C1796F000A97238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82F698981C1796F000A97238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F698991C1796F000A97238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F698B21C1796F000A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82F698B31C1796F000A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F698B51C1796F000A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = French_Bridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82F698B61C1796F000A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = French_Bridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82F698B81C1796F000A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = French_BridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/French_Bridge.app/French_Bridge";
+			};
+			name = Debug;
+		};
+		82F698B91C1796F000A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = French_BridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/French_Bridge.app/French_Bridge";
+			};
+			name = Release;
+		};
+		82F698BB1C1796F000A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = French_BridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = French_Bridge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		82F698BC1C1796F000A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = French_BridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = French_Bridge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F698871C1796F000A97238 /* Build configuration list for PBXProject "French_Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698B21C1796F000A97238 /* Debug */,
+				82F698B31C1796F000A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F698B41C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698B51C1796F000A97238 /* Debug */,
+				82F698B61C1796F000A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82F698B71C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698B81C1796F000A97238 /* Debug */,
+				82F698B91C1796F000A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82F698BA1C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698BB1C1796F000A97238 /* Debug */,
+				82F698BC1C1796F000A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F698841C1796F000A97238 /* Project object */;
+}
