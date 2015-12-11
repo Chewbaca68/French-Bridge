@@ -125,22 +125,7 @@
 		82F698831C1796F000A97238 = {
 			isa = PBXGroup;
 			children = (
-				82F698DB1C179B0D00A97238 /* libsqlite3.tbd */,
-				82F698D91C179AFE00A97238 /* libz.tbd */,
-				82F698D71C179AEC00A97238 /* SystemConfiguration.framework */,
-				82F698D51C179AD900A97238 /* StoreKit.framework */,
-				82F698D31C179ACE00A97238 /* Security.framework */,
-				82F698D11C179AC200A97238 /* QuartzCore.framework */,
-				82F698CF1C179AB100A97238 /* CoreLocation.framework */,
-				82F698CD1C179AA600A97238 /* CoreGraphics.framework */,
-				82F698CB1C179A9800A97238 /* CFNetwork.framework */,
-				82F698C91C179A8800A97238 /* AudioToolbox.framework */,
-				82F698BD1C1799EA00A97238 /* Bolts.framework */,
-				82F698BE1C1799EA00A97238 /* ParseFacebookUtils.framework */,
-				82F698BF1C1799EA00A97238 /* ParseFacebookUtilsV4.framework */,
-				82F698C01C1799EA00A97238 /* ParseTwitterUtils.framework */,
-				82F698C11C1799EA00A97238 /* ParseUI.framework */,
-				82F698C21C1799EA00A97238 /* Parse.framework */,
+				82F699131C1A8A5E00A97238 /* Frameworks */,
 				82F6988E1C1796F000A97238 /* French_Bridge */,
 				82F698A31C1796F000A97238 /* French_BridgeTests */,
 				82F698AE1C1796F000A97238 /* French_BridgeUITests */,
@@ -187,6 +172,29 @@
 				82F698B11C1796F000A97238 /* Info.plist */,
 			);
 			path = French_BridgeUITests;
+			sourceTree = "<group>";
+		};
+		82F699131C1A8A5E00A97238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F698DB1C179B0D00A97238 /* libsqlite3.tbd */,
+				82F698D91C179AFE00A97238 /* libz.tbd */,
+				82F698D71C179AEC00A97238 /* SystemConfiguration.framework */,
+				82F698D51C179AD900A97238 /* StoreKit.framework */,
+				82F698D31C179ACE00A97238 /* Security.framework */,
+				82F698D11C179AC200A97238 /* QuartzCore.framework */,
+				82F698CF1C179AB100A97238 /* CoreLocation.framework */,
+				82F698CD1C179AA600A97238 /* CoreGraphics.framework */,
+				82F698CB1C179A9800A97238 /* CFNetwork.framework */,
+				82F698C91C179A8800A97238 /* AudioToolbox.framework */,
+				82F698BD1C1799EA00A97238 /* Bolts.framework */,
+				82F698BE1C1799EA00A97238 /* ParseFacebookUtils.framework */,
+				82F698BF1C1799EA00A97238 /* ParseFacebookUtilsV4.framework */,
+				82F698C01C1799EA00A97238 /* ParseTwitterUtils.framework */,
+				82F698C11C1799EA00A97238 /* ParseUI.framework */,
+				82F698C21C1799EA00A97238 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +569,7 @@
 				82F698B61C1796F000A97238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F698B71C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +578,7 @@
 				82F698B91C1796F000A97238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F698BA1C1796F000A97238 /* Build configuration list for PBXNativeTarget "French_BridgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +587,7 @@
 				82F698BC1C1796F000A97238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,6 +11,10 @@ import Parse
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Login_button: UIButton!
+    @IBOutlet weak var Username_txt: UITextField!
+    @IBOutlet weak var Password_txt: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,17 @@ class ViewController: UIViewController {
             print("Object has been saved.")
         }
     }
+    
+    
+    @IBAction func Login_tapped(sender: UIButton) {
+        
+        // exicuted when send button is tapped 
+        let testObject = PFObject(className: "send_test")
+        testObject["test_top"] = "test item"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in print("send test sent to surver")}
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
