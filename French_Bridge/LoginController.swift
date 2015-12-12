@@ -9,7 +9,7 @@
 import UIKit
 import Parse
 
-class ViewController: UIViewController {
+class Lognin: UIViewController {
 
     @IBOutlet weak var Login_button: UIButton!
     @IBOutlet weak var Username_txt: UITextField!
@@ -29,9 +29,15 @@ class ViewController: UIViewController {
     @IBAction func Login_tapped(sender: UIButton) {
         
         // exicuted when send button is tapped 
-        let testObject = PFObject(className: "send_test")
-        testObject["test_top"] = "test item"
-        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in print("send test sent to surver")}
+        PFUser.logInWithUsernameInBackground(Username_txt.text!, password: Password_txt.text!) {user, error
+            in
+            
+            if (user != nil){
+               // self.showViewController(vc: Main_menu, sender: nil)
+            } else if let error = error {
+                self.showErrorView(error)
+            }
+        }
         
     }
     

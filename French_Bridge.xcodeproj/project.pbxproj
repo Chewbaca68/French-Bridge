@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		828D8A361C1BD0DD00FADA25 /* Main_menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */; };
 		82F698901C1796F000A97238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6988F1C1796F000A97238 /* AppDelegate.swift */; };
-		82F698921C1796F000A97238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698911C1796F000A97238 /* ViewController.swift */; };
+		82F698921C1796F000A97238 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698911C1796F000A97238 /* LoginController.swift */; };
 		82F698951C1796F000A97238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698931C1796F000A97238 /* Main.storyboard */; };
 		82F698971C1796F000A97238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F698961C1796F000A97238 /* Assets.xcassets */; };
 		82F6989A1C1796F000A97238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698981C1796F000A97238 /* LaunchScreen.storyboard */; };
@@ -30,6 +31,8 @@
 		82F698D81C179AEC00A97238 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F698D71C179AEC00A97238 /* SystemConfiguration.framework */; };
 		82F698DA1C179AFE00A97238 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F698D91C179AFE00A97238 /* libz.tbd */; };
 		82F698DC1C179B0D00A97238 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F698DB1C179B0D00A97238 /* libsqlite3.tbd */; };
+		82F699151C1A8B8700A97238 /* Sign_upController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F699141C1A8B8700A97238 /* Sign_upController.swift */; };
+		82F699171C1A930200A97238 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F699161C1A930200A97238 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_menuController.swift; sourceTree = "<group>"; };
 		82F6988C1C1796F000A97238 /* French_Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = French_Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6988F1C1796F000A97238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82F698911C1796F000A97238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82F698911C1796F000A97238 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		82F698941C1796F000A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82F698961C1796F000A97238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F698991C1796F000A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		82F698D71C179AEC00A97238 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		82F698D91C179AFE00A97238 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		82F698DB1C179B0D00A97238 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		82F699141C1A8B8700A97238 /* Sign_upController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign_upController.swift; sourceTree = "<group>"; };
+		82F699161C1A930200A97238 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +152,11 @@
 		82F6988E1C1796F000A97238 /* French_Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				82F699161C1A930200A97238 /* UIViewControllerExtension.swift */,
 				82F6988F1C1796F000A97238 /* AppDelegate.swift */,
-				82F698911C1796F000A97238 /* ViewController.swift */,
+				828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */,
+				82F698911C1796F000A97238 /* LoginController.swift */,
+				82F699141C1A8B8700A97238 /* Sign_upController.swift */,
 				82F698931C1796F000A97238 /* Main.storyboard */,
 				82F698961C1796F000A97238 /* Assets.xcassets */,
 				82F698981C1796F000A97238 /* LaunchScreen.storyboard */,
@@ -329,7 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F698921C1796F000A97238 /* ViewController.swift in Sources */,
+				82F699171C1A930200A97238 /* UIViewControllerExtension.swift in Sources */,
+				82F699151C1A8B8700A97238 /* Sign_upController.swift in Sources */,
+				82F698921C1796F000A97238 /* LoginController.swift in Sources */,
+				828D8A361C1BD0DD00FADA25 /* Main_menuController.swift in Sources */,
 				82F698901C1796F000A97238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +489,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = French_Bridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-Bridge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +508,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = French_Bridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.French-Bridge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
