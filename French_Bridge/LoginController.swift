@@ -28,12 +28,13 @@ class Lognin: UIViewController {
     
     @IBAction func Login_tapped(sender: UIButton) {
         
+        let mainmenu = "main"
         // exicuted when send button is tapped 
         PFUser.logInWithUsernameInBackground(Username_txt.text!, password: Password_txt.text!) {user, error
             in
             
             if (user != nil){
-               // self.showViewController(vc: Main_menu, sender: nil)
+               self.performSegueWithIdentifier(mainmenu, sender: nil)
             } else if let error = error {
                 self.showErrorView(error)
             }

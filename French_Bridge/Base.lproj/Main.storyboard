@@ -28,7 +28,6 @@
                                 <state key="normal" title="Log-in"/>
                                 <connections>
                                     <action selector="Login_tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vfd-25-gZu"/>
-                                    <segue destination="fV3-ou-ukB" kind="show" identifier="main" id="lfH-ou-2Gi"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qwZ-dg-mt4" userLabel="Username-text">
@@ -49,19 +48,21 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-Ei-oP8" userLabel="Password-text">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-Ei-oP8" userLabel="Password-text">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="kOG-wg-tgD"/>
                                 </constraints>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="kOG-wg-tgD"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <mask key="constraints">
                                         <include reference="kOG-wg-tgD"/>
                                     </mask>
@@ -182,6 +183,7 @@
                         <outlet property="Login_button" destination="I2D-Xs-rqK" id="8Vn-uc-vCa"/>
                         <outlet property="Password_txt" destination="h4c-Ei-oP8" id="wfV-yn-nWO"/>
                         <outlet property="Username_txt" destination="qwZ-dg-mt4" id="RdP-dX-DVd"/>
+                        <segue destination="fV3-ou-ukB" kind="show" identifier="main" id="lLL-Jl-zRj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
