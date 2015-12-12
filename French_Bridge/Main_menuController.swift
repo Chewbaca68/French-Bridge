@@ -19,5 +19,7 @@ class Main_menu: UIViewController{
         //put code to run after the screen is switched
     }
     
+    @IBAction func Sign_out_pressed(sender: AnyObject) {
+    }
     
 }
