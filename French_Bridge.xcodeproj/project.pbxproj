@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824F78AF1C276F780038979F /* Cloudcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F78AE1C276F780038979F /* Cloudcode.swift */; };
 		828D8A361C1BD0DD00FADA25 /* Main_menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */; };
 		82F698901C1796F000A97238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6988F1C1796F000A97238 /* AppDelegate.swift */; };
 		82F698921C1796F000A97238 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698911C1796F000A97238 /* LoginController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		824F78AE1C276F780038979F /* Cloudcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloudcode.swift; sourceTree = "<group>"; };
 		828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_menuController.swift; sourceTree = "<group>"; };
 		82F6988C1C1796F000A97238 /* French_Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = French_Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6988F1C1796F000A97238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -154,8 +156,9 @@
 			children = (
 				82F699161C1A930200A97238 /* UIViewControllerExtension.swift */,
 				82F6988F1C1796F000A97238 /* AppDelegate.swift */,
-				828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */,
 				82F698931C1796F000A97238 /* Main.storyboard */,
+				828D8A351C1BD0DD00FADA25 /* Main_menuController.swift */,
+				824F78AE1C276F780038979F /* Cloudcode.swift */,
 				82F698911C1796F000A97238 /* LoginController.swift */,
 				82F699141C1A8B8700A97238 /* Sign_upController.swift */,
 				82F698961C1796F000A97238 /* Assets.xcassets */,
@@ -342,6 +345,7 @@
 				82F699151C1A8B8700A97238 /* Sign_upController.swift in Sources */,
 				82F698921C1796F000A97238 /* LoginController.swift in Sources */,
 				828D8A361C1BD0DD00FADA25 /* Main_menuController.swift in Sources */,
+				824F78AF1C276F780038979F /* Cloudcode.swift in Sources */,
 				82F698901C1796F000A97238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

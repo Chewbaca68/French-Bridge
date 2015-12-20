@@ -286,15 +286,15 @@
                                 <exclude reference="uJj-PA-WhB"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="rRK-6p-iix"/>
-                                <exclude reference="sLS-SM-kGD"/>
-                                <exclude reference="yud-BN-8xM"/>
                                 <exclude reference="X39-kb-5wL"/>
                                 <exclude reference="rzZ-Yo-HSh"/>
                                 <exclude reference="S9U-I7-hzU"/>
                                 <exclude reference="ji2-B5-OGc"/>
                                 <exclude reference="5LO-rv-HlX"/>
                                 <exclude reference="UTi-dt-ETV"/>
+                                <exclude reference="rRK-6p-iix"/>
+                                <exclude reference="sLS-SM-kGD"/>
+                                <exclude reference="yud-BN-8xM"/>
                                 <exclude reference="76v-jM-GyD"/>
                                 <exclude reference="7VE-iV-OsN"/>
                                 <exclude reference="RIU-ky-835"/>
@@ -310,15 +310,15 @@
                                 <include reference="uJj-PA-WhB"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="rRK-6p-iix"/>
-                                <include reference="sLS-SM-kGD"/>
-                                <include reference="yud-BN-8xM"/>
                                 <include reference="X39-kb-5wL"/>
                                 <include reference="rzZ-Yo-HSh"/>
                                 <include reference="S9U-I7-hzU"/>
                                 <include reference="ji2-B5-OGc"/>
                                 <include reference="5LO-rv-HlX"/>
                                 <include reference="UTi-dt-ETV"/>
+                                <include reference="rRK-6p-iix"/>
+                                <include reference="sLS-SM-kGD"/>
+                                <include reference="yud-BN-8xM"/>
                                 <include reference="76v-jM-GyD"/>
                                 <include reference="7VE-iV-OsN"/>
                                 <include reference="RIU-ky-835"/>
@@ -360,33 +360,92 @@
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="44"/>
-                                </variation>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lt-Yz-IYY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Start Game"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTf-sV-xzA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Online Players"/>
+                                <connections>
+                                    <action selector="Online_Players_pressed:" destination="fV3-ou-ukB" eventType="touchUpInside" id="VBt-ep-ReN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se1-JL-nla">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="How to Play"/>
+                                <connections>
+                                    <action selector="How_to_Play_pressed:" destination="fV3-ou-ukB" eventType="touchUpInside" id="Uij-HE-sQg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Lt-Yz-IYY" firstAttribute="leading" secondItem="avC-it-6ph" secondAttribute="leading" constant="20" id="0VB-v4-MxS"/>
+                            <constraint firstItem="se1-JL-nla" firstAttribute="top" secondItem="WTf-sV-xzA" secondAttribute="bottom" constant="10" id="9Gc-8f-PdE"/>
+                            <constraint firstItem="YHz-Pg-Acu" firstAttribute="leading" secondItem="avC-it-6ph" secondAttribute="leading" id="CCd-bh-Cue"/>
+                            <constraint firstItem="se1-JL-nla" firstAttribute="leading" secondItem="avC-it-6ph" secondAttribute="leading" constant="20" id="H8q-Dm-o6G"/>
+                            <constraint firstItem="YHz-Pg-Acu" firstAttribute="top" secondItem="avC-it-6ph" secondAttribute="top" id="JDA-OQ-0h6"/>
+                            <constraint firstAttribute="trailing" secondItem="YHz-Pg-Acu" secondAttribute="trailing" id="Ubm-wG-7ub"/>
+                            <constraint firstItem="WTf-sV-xzA" firstAttribute="top" secondItem="0Lt-Yz-IYY" secondAttribute="bottom" constant="10" id="YYv-B0-KDO"/>
+                            <constraint firstItem="0Lt-Yz-IYY" firstAttribute="top" secondItem="YHz-Pg-Acu" secondAttribute="bottom" constant="40" id="mzn-y1-bRL"/>
+                            <constraint firstItem="WTf-sV-xzA" firstAttribute="leading" secondItem="avC-it-6ph" secondAttribute="leading" constant="20" id="zsW-pg-NLd"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="YHz-Pg-Acu"/>
+                                <exclude reference="0Lt-Yz-IYY"/>
+                                <exclude reference="WTf-sV-xzA"/>
+                                <exclude reference="se1-JL-nla"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="CCd-bh-Cue"/>
+                                <exclude reference="JDA-OQ-0h6"/>
+                                <exclude reference="Ubm-wG-7ub"/>
+                                <exclude reference="0VB-v4-MxS"/>
+                                <exclude reference="mzn-y1-bRL"/>
+                                <exclude reference="YYv-B0-KDO"/>
+                                <exclude reference="zsW-pg-NLd"/>
+                                <exclude reference="9Gc-8f-PdE"/>
+                                <exclude reference="H8q-Dm-o6G"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="YHz-Pg-Acu"/>
+                                <include reference="0Lt-Yz-IYY"/>
+                                <include reference="WTf-sV-xzA"/>
+                                <include reference="se1-JL-nla"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="CCd-bh-Cue"/>
+                                <include reference="JDA-OQ-0h6"/>
+                                <include reference="Ubm-wG-7ub"/>
+                                <include reference="0VB-v4-MxS"/>
+                                <include reference="mzn-y1-bRL"/>
+                                <include reference="YYv-B0-KDO"/>
+                                <include reference="zsW-pg-NLd"/>
+                                <include reference="9Gc-8f-PdE"/>
+                                <include reference="H8q-Dm-o6G"/>
                             </mask>
                         </variation>
                     </view>
+                    <toolbarItems/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signout" id="hd2-O7-KSI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzX-Yj-bhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="366" y="980.25"/>
+            <point key="canvasLocation" x="702" y="1077.75"/>
         </scene>
     </scenes>
     <resources>
         <image name="greenFelt" width="1280" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="hd2-O7-KSI"/>
         <segue reference="KdR-vX-2GU"/>
     </inferredMetricsTieBreakers>
 </document>

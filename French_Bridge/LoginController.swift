@@ -19,24 +19,27 @@ class Lognin: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let testObject = PFObject(className: "TestObject")
-        testObject["foo"] = "bar"
+        testObject["foo"] = "afasdfasdfasdf"
+        //testObject.objectId = "hello"
         testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             print("Object has been saved.")
         }
+        
+
     }
     
     
     @IBAction func Login_tapped(sender: UIButton) {
         
         let mainmenu = "main"
-        // exicuted when send button is tapped 
+        // exicuted when send button is tapped
         PFUser.logInWithUsernameInBackground(Username_txt.text!, password: Password_txt.text!) {user, error
             in
             
             if (user != nil){
-               self.performSegueWithIdentifier(mainmenu, sender: nil)
+               self.performSegueWithIdentifier(mainmenu, sender: nil) // if log in was successful go to main menu
             } else if let error = error {
-                self.showErrorView(error)
+                self.showErrorView(error) // if failed display the error
             }
         }
         
